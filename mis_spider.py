@@ -3,10 +3,12 @@ import time
 
 username = 'jmyxh'
 password = 'jmyxh007'
+url = 'http://10.0.2.2:8080'#内网
+#url = 'http://mis.gdsei.org.cn/' #外网
 
 browser = webdriver.Ie()
 
-browser.get('http://mis.gdsei.org.cn/')
+browser.get(url)
 
 time.sleep(5)
 
