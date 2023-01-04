@@ -1,8 +1,8 @@
 from selenium import webdriver
 import time
 
-username = 'jmyxh'
-password = 'jmyxh007'
+username = 'jmgjb'
+password = 'abc12345'
 url = 'http://10.0.2.2:8080'#内网
 #url = 'http://mis.gdsei.org.cn/' #外网
 
